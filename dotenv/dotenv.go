@@ -1,5 +1,5 @@
 // Package dotnev provide load .env data to os ENV
-package dotnev
+package dotenv
 
 import (
 	"bufio"
