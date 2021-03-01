@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/ini/v2"
-	"github.com/gookit/ini/v2/parser"
 	"github.com/stretchr/testify/assert"
+	"github.com/urionz/ini"
+	"github.com/urionz/ini/parser"
 )
 
 func Example() {

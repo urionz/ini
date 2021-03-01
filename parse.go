@@ -3,7 +3,7 @@ package ini
 import (
 	"strings"
 
-	"github.com/gookit/ini/v2/parser"
+	"github.com/urionz/ini/parser"
 )
 
 // parse and load data
@@ -56,7 +56,7 @@ func (c *Ini) parseVarReference(key, valStr string, sec Section) string {
 	if len(vars) == 0 {
 		return valStr
 	}
-	
+
 	varOLen := len(c.opts.VarOpen)
 	varCLen := len(c.opts.VarClose)
 

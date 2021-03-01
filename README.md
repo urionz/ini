@@ -34,7 +34,7 @@ If you want more support for file content formats, recommended use `gookit/confi
 ## Install
 
 ```bash
-go get github.com/gookit/ini/v2
+go get github.com/urionz/ini
 ```
 
 ## Usage
@@ -67,7 +67,7 @@ varRef = %(nkey)s
 package main
 
 import (
-	"github.com/gookit/ini/v2"
+	"github.com/urionz/ini"
 )
 
 // go run ./examples/demo.go

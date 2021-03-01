@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/ini/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/urionz/ini"
 )
 
 func TestIni_Get(t *testing.T) {

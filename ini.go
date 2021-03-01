@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gookit/ini/v2/parser"
+	"github.com/urionz/ini/parser"
 )
 
 // some default constants

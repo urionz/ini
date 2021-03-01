@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
 	"github.com/stretchr/testify/assert"
+	"github.com/urionz/goutil/dump"
 )
 
 func TestDecode(t *testing.T) {
